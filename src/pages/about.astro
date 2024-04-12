@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css'
+import Navigation from '../components/Navigation.astro';
 const pageTitle = "About me";
 ---
 <head>
@@ -11,6 +12,11 @@ const pageTitle = "About me";
 	</head>
 
 	<body>
+  <Navigation />
 		<h1>About</h1>
   <p>I am a highly motivated and adaptable full-stack developer based in the UK with nearly a decade of experience in the field. My expertise revolves around modern JavaScript and TypeScript technologies, including:</p>
+  <script>
+    import "../scripts/menu.ts";
+  </script>
 	</body>
+
